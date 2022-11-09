@@ -3,7 +3,7 @@ variable "resource_arn" {
   type        = string
 }
 
-variable "web_acl_id" {
+variable "web_acl_arn" {
   description = "WAF id"
   type        = string
 }
